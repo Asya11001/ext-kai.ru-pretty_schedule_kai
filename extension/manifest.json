@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Pretty расписание https://kai.ru/raspisanie",
+  "description": "Забываете какой сегодня день недели? Устали забывать четная или нечётная сейчас неделя? Это расширение позволит вам пользоваться расписанием сайта с комфортом!",
+  "version": "1.1",
+
+  "content_scripts": [
+    {
+      "matches": ["*://kai.ru/raspisanie"],
+      "css": ["/dist/styles.css"],
+      "js": ["/src/index.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

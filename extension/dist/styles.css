@@ -1,0 +1,26 @@
+.div-shadow-today {
+    border: 1px solid #fff;
+    /*box-shadow:0 0 25px rgba(118, 245, 0, 0.84);*/
+    box-shadow: 15px 0 10px -5px rgba(118, 245, 0, 0.84), -15px 0 10px -5px rgba(118, 245, 0, 0.84)
+}
+
+.div-shadow-tomorrow {
+    border: 1px solid #fff;
+    /*box-shadow:0 0 25px rgba(245, 237, 0, 0.84);*/
+    box-shadow: 15px 0 10px -5px rgba(245, 237, 0, 0.84), -15px 0 10px -5px rgba(245, 237, 0, 0.84)
+}
+
+.mainContainer {
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.useless-class {
+    color: rgba(0, 0, 0, 0.27);
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+/*.useless-class:hover {*/
+/*    color: rgba(0, 0, 0, 0.5)*/
+/*}*/
